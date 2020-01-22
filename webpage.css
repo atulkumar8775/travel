@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -222,6 +225,12 @@ i{
 
 }
 
+
+.servicediv{
+
+	margin-left:15px;
+}
+
 /****<!---Happy client start---->***/
 .project-work{
 
@@ -237,7 +246,6 @@ i{
 /****<!---pricing start---->***/
 .pricing{
 	width: 100%;
-	height: 100vh;
 	padding: 50px;
 	position: relative;
 
@@ -255,6 +263,9 @@ i{
 	background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
 
 }
+
+
+
 
 .money{
 	font-size:40px;
@@ -329,6 +340,7 @@ i{
 
 .second-card{
 	transform: translateY(-20px);
+	margin-top:40px;
 
 }
 
@@ -338,8 +350,8 @@ i{
 .happyclients{
 
 	width: 100%;
-	height: 100vh;
-	padding: 80px;
+	padding: 40px;
+	margin-bottom: 80px;
 }
 
 .box{
@@ -348,6 +360,7 @@ i{
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
 	border-radius: 2px;
 	transition: 0.3s ease;
+
 
 }
 
@@ -400,7 +413,7 @@ i{
 
 .box h1{
 
-	font-size: 18px;
+	font-size: 20px;
 	font-size: 700;
 	color: #000;
 	margin-bottom:10px;
@@ -408,10 +421,11 @@ i{
 
 .box h2{
 
-	font-size: 13px;
+	font-size: 15px;
 	font-size: 400;
 	color: #666666;
 	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 /****<!---END customer feedback  start---->***/
@@ -458,9 +472,87 @@ form:hover .form-button button{
 	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
 
+/****<!---END contact us---->***/
 
-::placeholder{
-	font-size: 0.85rem;
+
+/****<!---news letter---->***/
+.newslatter{
+	width: 100%;
+	height: auto;
+	margin: 80px auto;
 }
 
-/****<!---END contact us---->***/
+.news-input{
+	border-radius: 100px 0px 0px 100px!important;
+}
+
+.input-group-text{
+	color: #fff!important;
+	background: #5bc0de!important;
+	border-radius: 0 100px 100px 0px!important;
+	min-width: 120px;
+	min-height: 40px;
+}
+/****<!---END letter---->***/
+
+
+/**<!-------footer start>***/
+
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #00abff;
+	position: relative;
+}
+
+.footersection p{
+	color: #fff;
+}
+
+.footersection li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.footersection li{
+	list-style-type: none;
+}
+
+.footersection h3{
+
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem!important;
+	font-weight: 600;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+#myBtn{
+
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: #4000ff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#myBtn:hover{
+	background: #606060;
+}
+/**<!-------footer start>***/
+
+

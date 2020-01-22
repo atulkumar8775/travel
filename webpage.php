@@ -17,6 +17,8 @@
 
 	<link rel="stylesheet" type="text/css" href="webpage.css">
 
+ 
+
 
 </head>
 
@@ -38,19 +40,19 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#servicediv">Services</a>
           </li>
 
           <li class="nav-item">
-             <a class="nav-link" href="#">Price</a>
+             <a class="nav-link" href="#pricediv">Price</a>
            </li>
 
           <li class="nav-item">
-             <a class="nav-link" href="#">abouut</a>
+             <a class="nav-link" href="#footerdiv">about</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contactdiv">Contact</a>
           </li>
         </ul>
       </div>
@@ -63,8 +65,8 @@
       <p>We create the world best website.</p>
       
       <div class="header-buttons">
-        <a href="#">AboutUs</a>
-        <a href="#">Contact</a>
+        <a href="#footerdiv">AboutUs</a>
+        <a href="#contactdiv">Contact</a>
       </div>
      </div>
     </section>
@@ -108,13 +110,8 @@
 
 <!---end three extra div start-->
 
-
-
-
-
-
 <!--offer section start-->
-<section class="Serviceoffers">
+<section class="Serviceoffers" id='servicediv'>
   <div class="container heading text-center">
     <h1 class="text-center font-weight-bold">WHAT DO WE OFFER</h1>
     <p class="text-center">fast web design and database connection</p>  
@@ -209,9 +206,7 @@
 
 <!--end offer section start-->
 
-
-
-
+<!----**********************************************-------->
 
 <!---Happy client start---->
 
@@ -248,11 +243,8 @@
 
 
 
-
-
-
 <!---Our Pricing start--------->
-<section class="pricing" id='pricingdiv'>
+<section class="pricing" id='pricediv'>
   <div class="container heading text-center">
     <h1 class="text-center font-weight-bold">OUR BEST PRICING</h1>  
   </div>
@@ -316,168 +308,181 @@
 <!---Customer feedback start---->
 
 <section class="happyclients">
-  <div class="container heading text-center">
+    <div class="container heading text-center">
     <h1 class="text-center font-weight-bold">OUR HAPPY CLIENTS</h1>
     <P class='text-capitalize pt-1'>Our satisfied customer says</P>  
   </div>
-
-  <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+<div id="demo" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
+          <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
 
   <!-- The slideshow -->
-  <div class="carousel-inner container">
-    <div class="carousel-item active">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+          <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
 
-            <p class="m-4">i got the world class wed site from abc company</p>
+                    <p class="m-4">i got the world class wed site from abc company</p>
 
-            <h1>atul kumar</h1>
-            <h2>Web developer</h2>
-  
-          </div>          
-        </div>
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
 
-         <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+                  </div>
+                </div>
 
-            <p class="m-4">i got the world class wed site from abc company</p>
 
-            <h1>atul kumar</h1>
-            <h2>Web developer</h2>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
 
-            
+                    <p class="m-4">i got the world class wed site from abc company</p>
+
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
+
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+
+                    <p class="m-4">i got the world class wed site from abc company</p>
+
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
+
+                  </div>
+                </div>      
+              </div>
+            </div>
+
+
           </div>
-        </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
 
-         <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+                    <p class="m-4">i got the world class wed site from abc company</p>
 
-            <p class="m-4">i got the world class wed site from abc company</p>
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
 
-            <h1>atul kumar</h1>
-            <h2>Web developer</h2>
+                  </div>
+                </div>
 
-            
-          </div>  
-        </div>
-      </div>
 
-    </div>
-    <div class="carousel-item">
-      
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
 
-            <p class="m-4">i got the world class wed site from abc company</p>
+                    <p class="m-4">i got the world class wed site from abc company</p>
 
-            <h1>atul kumar</h1>
-            <h2>Web developer</h2>
-  
-          </div>          
-        </div>
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
 
-         <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+                  </div>
+                </div>
 
-            <p class="m-4">i got the world class wed site from abc company</p>
 
-            <h1>atul kumar</h1>
-            <h2>Web developer</h2>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
 
-            
+                    <p class="m-4">i got the world class wed site from abc company</p>
+
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
+
+                  </div>
+                </div>      
+              </div>
+            </div>
+
+
+
           </div>
-        </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
 
-         <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+                    <p class="m-4">i got the world class wed site from abc company</p>
 
-            <p class="m-4">i got the world class wed site from abc company</p>
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
 
-            <h1>atul kumar</h1>
-            <h2>Web developer</h2>
+                  </div>
+                </div>
 
-            
-          </div>  
-        </div>
-      </div>
 
-    </div>
-    <div class="carousel-item">
-      
-        <div class="row">
-        <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
 
-            <p class="m-4">i got the world class wed site from abc company</p>
+                    <p class="m-4">i got the world class wed site from abc company</p>
 
-            <h1>atul kumar</h1>
-            <h2>Web developer</h2>
-  
-          </div>          
-        </div>
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
 
-         <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
+                  </div>
+                </div>
 
-            <p class="m-4">i got the world class wed site from abc company</p>
 
-            <h1>atul kumar</h1>
-            <h2>Web developer</h2>
+                <div class="col-lg-4 col-md-4 col-12">
+                  <div class="box">
+                    <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
 
-            
+                    <p class="m-4">i got the world class wed site from abc company</p>
+
+                    <h1>atul kumar</h1>
+                    <h2>Web developer</h2>
+
+                  </div>
+                </div>      
+              </div>
+            </div>
+
+
           </div>
-        </div>
-
-         <div class="col-lg-4 col-md-4 col-12">
-          <div class="box">
-            <a href="#"><img src="coffee.jpg" class='img-fluidi img-thumbnail'></a>
-
-            <p class="m-4">i got the world class wed site from abc company</p>
-
-            <h1>Atul Kumar</h1>
-            <h2>Web developer</h2>
-
-            
-          </div>  
-        </div>
-      </div>
-
-    </div>
-  </div>
+          </div>
 
   <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </a>
 
-  </div>
+      </div>
+
+    </div>
+
+
+
 </section>
 
 <!---Customer feedback ends---->
 
 
 <!---Contact us---->
-<section class="contactus">
+<section class="contactus" id='contactdiv'>
   <div class="container heading text-center">
     <h1 class="text-center font-weight-bold">CONTACT US</h1>
     <p class="text-center">we are Here to help and answer any question you might have. we look forward to hearing from you.</p> </div>
@@ -515,6 +520,8 @@
 
             <div class="d-flex justify-content-center form-button">
             <button type="submit" class="btn btn-primary">Submit</button>
+            <br>
+            <br>
           </div>
           </form>
         </div>
@@ -522,9 +529,103 @@
     </div>
 </section>
 
-
-
 <!--End contact us----->
+
+
+
+<!--- start news latter----->
+<section class="newslatter" id='newslatter'>
+    <div class="container heading text-center">
+    <h1 class="text-center font-weight-bold">SUBSRIBE TO OUR NEWSLETTER</h1>   
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 col-12">
+        <form>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control news-input" placeholder="Your Email">
+            <div class="input-group-append">
+            <span class="input-group-text">subscribes</span>
+            </div>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------END news latter-------->
+
+
+<!-------Footer section----------->
+<footer class="footersection" id='footerdiv'>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 footer-div">
+        <div>
+          <h3>KUMAR TECHNOLOGY</h3>
+          <P>The world has become so fast placed that people do not want to stand by reading a page of information to be they would much rather look at a presentation and understand the message.</P>
+        </div>      
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+        <div>
+            <h3>NAVIGATION LINKS</h3>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">PRICE</a></li>
+            <li><a href="#">ABOUT</a></li>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 footerdiv">
+        <div>
+          <H3>ABOUT KUMAR TECH</H3>
+          <P>FOR business professionals caught between high OEM price and mediore price and graphic output.</P>
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12  col-12">
+            <form>
+              <div class="input-group mb-3">
+              <input type="text" class="form-control news-input" placeholder="Your Email">
+              <div class="input-group-append">
+              <span class="input-group-text">subscribes</span>
+              </div>
+              </div>
+            </form>
+          </div>
+          </div>
+          </div>
+
+        </div>
+      </div>  
+    </div>
+
+    <div class="mt-5 text-center">
+      <p>Copyright@2020 All right reserved. This template is made by Atul kumar</p>
+    </div>
+
+    <div class="scrolltop float-right">
+     <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn">Top</i>
+     
+      
+
+    </div>
+
+  </div>
+  
+</footer>
+
+
+
+
+<!---ends footer------------>
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -544,6 +645,29 @@
     time:3000
   })
 </script>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 <!---counting end---->
 
 </body>
