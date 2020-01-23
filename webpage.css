@@ -9,10 +9,7 @@ html{
 
 }
 
-a{ 
-	text-decoration: none;
 
- }
 
  p{
 
@@ -26,7 +23,7 @@ a{
  	text-decoration: none;
  	 }
 
-.extra-div h2, .servicediv h2{
+.extra-div h2, .serdiv h2{
 	font-size:0.9rem;
 	margin: 20px 0 15px 0;
 	font-weight: bold;
@@ -38,6 +35,9 @@ a{
 i{
 	color: #2fccd0;
 }
+
+
+
 /**********actual css start*********/
 
 .header{
@@ -144,6 +144,7 @@ i{
 	padding: 10px 0 20px 0;
 	color: white;
 }
+
 
 
 <!------------three extra div start------------>
